@@ -1,0 +1,10 @@
+# Local previews and personal profile content are not SiteGO publication assets.
+preview/
+profile/
+.DS_Store
+.env
+.env.*
+*.pem
+*.key
+*.p12
+node_modules
