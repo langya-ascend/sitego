@@ -23,7 +23,7 @@
 
 <p align="center">
   <a href="#product-preview">Product Preview</a> · <a href="#capabilities">Capabilities</a> · <a href="#capability-blueprint">Blueprint</a> · <a href="#progress">Progress</a> · <a href="#architecture">Architecture</a> ·
-  <a href="ROADMAP.md">Roadmap</a> · <a href="#license-and-commercial-use">License</a>
+  <a href="ROADMAP.md">Roadmap</a> · <a href="releases/README.md">Release Policy</a> · <a href="#license-and-commercial-use">License</a>
 </p>
 
 ---
@@ -153,6 +153,8 @@ Dates are planning windows and will move with acceptance results. The [full road
 The first verified public release will include installation instructions, configuration examples, supported image digests, and a reproducible acceptance scope. **There is no public application package or image to install yet.**
 
 For now, use the product preview, progress table, and roadmap to assess whether SiteGO matches your workflow.
+
+Future accepted versions will use annotated **tags and GitHub Releases**, with Chinese and English notes covering changes, upgrades, known limitations, and verified artifacts. Read the [release policy and templates](releases/README.md). This documentation preview is not an application release.
 
 ## License And Commercial Use
 

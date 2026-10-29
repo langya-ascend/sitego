@@ -62,4 +62,10 @@ Do not use unrelated trending tags, an `open-source` label inconsistent with the
 
 Use small, verified Chinese-described commits for public documentation. Keep README progress concise; put milestones and known gaps in the roadmap. Each feature completion needs dated public-version evidence. Release notes should distinguish source publication, image publication, deployment, and business acceptance.
 
+## Tags and Release Notes
+
+Follow the [Tag and Release policy](releases/README.md) for accepted application versions. Use annotated `vX.Y.Z` tags for stable versions and `vX.Y.Z-rc.N` for candidates, with one bilingual GitHub Release per version. Published tags must not be moved or overwritten.
+
+Prepare the notes from either the [English-guided](releases/RELEASE_NOTES_TEMPLATE.md) or [Chinese-guided](releases/RELEASE_NOTES_TEMPLATE.zh-CN.md) bilingual template. Include verified changes, upgrade, rollback and recovery steps, known issues, acceptance scope, and actual artifact checksums and image digests. Documentation-only updates do not create an application tag or bypass the release checklist above.
+
 References: [GitHub topics](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/classifying-your-repository-with-topics), [Open Source Definition](https://opensource.org/osd).

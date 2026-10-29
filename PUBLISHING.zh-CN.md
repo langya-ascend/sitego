@@ -62,4 +62,10 @@ GitHub Topics 使用小写字母、数字与连字符，每个不超过 50 字�
 
 公开文档采用小步、经验证的中文备注提交。README 保留简明进度，路线图维护里程碑和待办缺口。功能完成记录必须有日期与公开版本证据，发布说明区分源码发布、镜像发布、部署和业务验收。
 
+## Tag 与版本说明
+
+已验收的应用版本遵循 [Tag 与 Release 规范](releases/README.zh-CN.md)。正式版使用附注 Tag `vX.Y.Z`，候选版使用 `vX.Y.Z-rc.N`，每个版本对应一个双语 GitHub Release。已发布的 Tag 不移动、不覆盖。
+
+从[中文指引](releases/RELEASE_NOTES_TEMPLATE.zh-CN.md)或[英文指引](releases/RELEASE_NOTES_TEMPLATE.md)的双语模板中任选一份准备版本说明，包含已验证改动、升级、回退与恢复步骤、已知问题、验收范围，以及真实产物的校验值和镜像摘要。纯文档更新不创建应用 Tag，也不绕过上述发布检查。
+
 参考：[GitHub Topics](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/classifying-your-repository-with-topics)、[Open Source Definition](https://opensource.org/osd)。
